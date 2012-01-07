@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:id="@+id/base_RL"
+    android:layout_height="fill_parent"
+    >
+    <ImageView android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:src="@drawable/default_caller" 
+    android:id="@+id/incoming_image" 
+    android:scaleType="fitXY"
+    android:layout_alignParentTop="true"></ImageView>
+    <RelativeLayout 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:id="@+id/incoming_caller_field" 
+    android:background="@drawable/background_contact"
+    android:gravity="top" android:layout_marginBottom="@dimen/caller_field_bottom">
+        <RelativeLayout android:layout_width="wrap_content" 
+        android:layout_height="6dp" 
+        android:id="@+id/incoming_caller_field_RL_top" 
+        android:layout_alignParentTop="true"></RelativeLayout>
+        <TextView android:layout_width="wrap_content" 
+        android:textSize="25sp" 
+        android:id="@+id/incoming_text_caller" 
+        android:text="Caller Name" 
+        android:layout_below="@+id/incoming_caller_field_RL_top"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" android:textColor="@color/caller_field_text_color"></TextView>
+        <RelativeLayout android:layout_width="20dp" 
+        android:layout_height="wrap_content"
+        android:id="@+id/incoming_caller_filed_RL_right"
+        android:layout_toRightOf="@+id/incoming_text_caller"></RelativeLayout>
+        <RelativeLayout android:layout_width="20dp" 
+        android:layout_height="wrap_content"
+        android:id="@+id/incoming_caller_number_RL_right"
+        android:layout_toRightOf="@+id/incoming_text_number"
+        ></RelativeLayout>
+        <TextView android:layout_width="wrap_content" 
+        android:textSize="16sp" 
+        android:id="@+id/incoming_text_number" 
+        android:text="Caller Number" 
+        android:layout_below="@+id/incoming_text_caller"
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true" android:textColor="@color/caller_field_text_color"></TextView>
+        <RelativeLayout android:layout_width="wrap_content" 
+        android:layout_height="6dp" 
+        android:layout_below="@+id/incoming_text_number"
+        ></RelativeLayout>
+
+    </RelativeLayout>
+	    <RelativeLayout android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/speaker" 
+	    android:layout_alignParentLeft="true" 
+	    android:layout_alignParentTop="true"
+	    android:layout_marginLeft="@dimen/speaker_left" android:layout_marginTop="@dimen/speaker_top">
+	        <ImageView  
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content" 
+	        android:background="@drawable/speaker_off"    
+	        ></ImageView>
+	    </RelativeLayout>
+	    <RelativeLayout android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/mute"
+	    android:layout_alignParentRight="true" 
+	    android:layout_alignParentTop="true" 
+	    android:layout_marginRight="@dimen/mute_right" android:layout_marginTop="@dimen/mute_top">
+	        <ImageView 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content" 
+		    android:background="@drawable/mute_off"    
+	        ></ImageView>
+	    </RelativeLayout>
+		    <RelativeLayout android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content"
+		    android:id="@+id/answer"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentBottom="true"
+		    android:background="@drawable/answer"
+		       android:layout_marginLeft="@dimen/answer_left" android:layout_marginBottom="@dimen/answer_bottom">
+	        </RelativeLayout>
+		    <RelativeLayout android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content" 
+		    android:id="@+id/decline" 
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentBottom="true"
+		    android:background="@drawable/decline"
+		    android:layout_marginRight="@dimen/decline_right" android:layout_marginBottom="@dimen/decline_bottom">
+	    </RelativeLayout>
+
+	    
+</RelativeLayout>
