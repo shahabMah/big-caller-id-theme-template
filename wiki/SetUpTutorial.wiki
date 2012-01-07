@@ -57,7 +57,7 @@ You can preview position of buttons in layout incall.xml. It is important that a
 
 *10.* [http://code.google.com/p/big-caller-id-theme-template/wiki/DrawableDescription Resources page] describes all the images of drawable-hdpi folder.
 
-*11.* [http://code.google.com/p/big-caller-id-theme-template/wiki/AnimationView Animation View Tutorial] introduces to concept of animated view. Source code now have snowflakes algorithm form Christmas Theme, it should be understable with comments left inside java file.
+*11.* [http://code.google.com/p/big-caller-id-theme-template/wiki/AnimationTutorial Animation View Tutorial] introduces to concept of animated view. Source code now have snowflakes algorithm form Christmas Theme, it should be understable with comments left inside java file.
 
 *12.* After everything is done, just export your project like every other in eclipse and PUBLISH IT TO ANDROID MARKET. THEME IS YOUR PROPERYTY, so you can do whatever you want with it!
 
