@@ -1,0 +1,68 @@
+#summary Set up tutorial for theme template
+
+= Introduction =
+
+This is tutorial for setting up theme for BIG! caller ID. You will be able only to change resources of theme like images for buttons or font and color for caller field. 
+
+We are planing to add other features that will be themable, but that is going to be announced.
+
+
+= Instructions =
+
+*1.* [http://code.google.com/p/big-caller-id-theme-template/downloads/detail?name=StyleTemplate.zip&can=2&q=#makechanges Download] the project, and open it In Eclipse or import it by [http://code.google.com/p/big-caller-id-theme-template/source/checkout SVN], choose SDK 7 – the same as the version of BIG! caller ID.
+
+*2.* In *Android Manifest* change x.x.x to your own package name.
+Fields:  versionCode and versionName are up to you. You also have to change the x.x.x package name in src/ with Refractor -> Rename.
+
+*3.* Add a font to the folder assets/fonts/  (or don’t add anything if you use a stock font).
+
+*4.* In values/strings.xml change values *(not the name of a value!)*.
+
+Follow these guidelines:
+
+*info* – any text (this information will be displayed after turning on the app with loaded theme)
+
+*app_name* – as you wish
+
+*style_name* – the name of the theme (will be seen in Theme list within BIG! caller ID)
+
+*package_name* – name must be the same as in *Android Manifest*;
+
+*caller_filed_font* – the path of the font placed assets/fonts/  . If you use stock Android font, enter “none” (without quotation marks). Path format:  fonts/font_name , where font_name is name of font used. This font is used in the caller’s name field;
+
+*caller_field_text_color* – the color of the caller’s name text
+
+*5.* *Positioning:* 
+You can set default position for fields: answer, dialpad, call, decline, end_call, text, speaker, mute and caller_field  by the means of variables (dimen) created in dimen.xml file. Position from a margin with dp value.
+
+Variables have to retain this format:  [field_name_top|left|bottom|right]
+
+*Example:* To position the “answer” button 20 pixels above the bottom margin and 0 pixels from the left margin you have to create variables: answer_left valued 0dpi and answer_bottom valued 20dpi.
+
+*IMPROTANT: choose one vertical and one horizontal position only, e.g. if you create answer_left don’t create answer_right.*
+
+caller_field can be positioned only vertically.
+
+If no variables (dimen) are created, the field will be positioned analogically to Minimalistic theme for BIG! caller ID.
+
+You can preview position of buttons in layout incall.xml. It is important that after every change of a dimen name you have to apply proper changes in incall.xml file, so that the changes are visible.
+
+*6.* Swap all the icons in drawable-hdpi folder. Every picture has a proper name which they must retain. Files are divided into on/off – clicked and not-clicked state.
+
+*7.* *Do not* change anything in drawable folder.
+
+*8.* If you want to add different graphics for more than 1 language, create new folder with a proper name, e.g. for Polish it should be:   drawable-pl-hdpi   . For more information about languages and locations visit: http://developer.android.com/guide/topics/resources/localization.html
+
+*9.* Layout main.xml in the folder is at your disposal – you can do anything you want with it, and it won’t influence an imported theme. The same is layout incall.xml and dialpad.xml – they exist only for preview.
+
+*10.* In [http://code.google.com/p/big-caller-id-theme-template/wiki/DrawableDescription Resources page] there are described all the images of drawable-hdpi folder.
+
+*11.* After everything is done, just export your project like every other in eclipse and PUBLISH IT TO ANDROID MARKET. THEME IS YOUR PROPERYTY, so you can do whatever you want with it!
+
+= Usage =
+
+*1.* A theme is automatically imported to BIG! caller ID when a welcoming screen of this theme is displayed. It is deleted from the themes list only after uninstaling the theme on the device.
+
+*2.* Theme can be *only* selected by full version users.
+
+If you should encounter any problem, mail us to:wroclawstudio@gmail.com – we’ll definitely help you!
