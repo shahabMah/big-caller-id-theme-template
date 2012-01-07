@@ -1,0 +1,53 @@
+#summary drawable-hdpi resources list
+
+=Here are drawable-hdpi resources described=
+||Drawable||Description||
+||answer_on||	image resources for answer button while pressed||
+||answer_off||	image resources for answer button while realesed||
+||dialpad_on||	image resources for dialpad button while pressed||
+||dialpad_off||	image resources for dialpad button while realesed||
+||call_on||	image resources for call button while pressed||
+||call_off||	image resources for call button while realesed||
+||decline_on||	image resources for decline button while pressed||
+||decline_off||	image resources for decline button while realesed||
+||end_call_on||	image resources for end call button while pressed||
+||end_call_off||image resources for end call button while realesed||
+||text_on||	image resources for text button while pressed||
+||text_off||	image resources for text button while realesed||
+||speaker_on||	image resources for speaker button while pressed||
+||speaker_off||	image resources for speaker button while realesed||
+||mute_on||	image resources for mute button while pressed||
+||mute_off||	image resources for mute button while realesed||
+||background_contact||	image resources for caller field||
+||default_caller||	default caller image used during call||
+||unknown_caller||	unknown caller image used during call||
+||slider||	background appearing behind slided button||
+||slider_dot||	point to which button is slided||
+||logo||	logo which is seen in theme list||
+||ic_00_on||	Dialpad 00 when pressed||
+||ic_00_off||	Dialpad 00 when realesed||
+||ic_01_on||	Dialpad 01 when pressed||
+||ic_01_off||	Dialpad 01 when realesed||
+||ic_02_on||	Dialpad 02 when pressed||
+||ic_02_off||	Dialpad 02 when realesed||
+||ic_03_on||	Dialpad 03 when pressed||
+||ic_03_off||	Dialpad 03 when realesed||
+||ic_04_on||	Dialpad 04 when pressed||
+||ic_04_off||	Dialpad 04 when realesed||
+||ic_05_on||	Dialpad 05 when pressed||
+||ic_05_off||	Dialpad 05 when realesed||
+||ic_06_on||	Dialpad 06 when pressed||
+||ic_06_off||	Dialpad 06 when realesed||
+||ic_07_on||	Dialpad 07 when pressed||
+||ic_07_off||	Dialpad 07 when realesed||
+||ic_08_on||	Dialpad 08 when pressed||
+||ic_08_off||	Dialpad 08 when realesed||
+||ic_09_on||	Dialpad 09 when pressed||
+||ic_09_off||	Dialpad 09 when realesed||
+||hash_on||	Dialpad hash when pressed||
+||hash_off||	Dialpad hash when realesed||
+||hide_on||	Dialpad hide button when pressed||
+||hide_off||	Dialpad hide button when realesed||
+||star_on||	Dialpad star when pressed||
+||star_off||	Dialpad star when realesed||
+||app_icon||	application icon as seen in application browser||
