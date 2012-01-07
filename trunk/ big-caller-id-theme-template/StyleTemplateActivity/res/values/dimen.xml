@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="answer_left">0dp</dimen>
+    <dimen name="answer_bottom">10dp</dimen>
+    <dimen name="decline_right">0dp</dimen>
+    <dimen name="decline_bottom">10dp</dimen>
+    <dimen name="dialpad_left">0dp</dimen>
+    <dimen name="dialpad_bottom">10dp</dimen>
+    <dimen name="text_right">0dp</dimen>
+    <dimen name="text_bottom">10dp</dimen>
+    <dimen name="call_left">0dp</dimen>
+    <dimen name="call_bottom">10dp</dimen>
+    <dimen name="end_call_right">0dp</dimen>
+    <dimen name="end_call_bottom">10dp</dimen>
+    <dimen name="speaker_left">20dp</dimen>
+    <dimen name="speaker_top">10dp</dimen>
+    <dimen name="caller_field_bottom">120dp</dimen>
+    <dimen name="mute_right">20dp</dimen>
+    <dimen name="mute_top">10dp</dimen>
+</resources>

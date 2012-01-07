@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info">This is a style for\nBIG! caller ID\n\nIt has been loaded \nto your application.\n(if it is installed).\n\nThis theme is compatible with\nBIG! caller ID since version 1.7.5</string>
+    <string name="app_name">Christmas Theme for BIG! caller ID</string>
+    <string name="style_name">ChristmasTheme</string>
+    <string name="package_name">com.wroclawstudio.christmastheme</string>
+    <string name="caller_field_font">fonts/christmas.ttf</string>
+    <color name="caller_field_text_color">#000000</color>
+</resources>
