@@ -55,9 +55,11 @@ You can preview position of buttons in layout incall.xml. It is important that a
 
 *9.* Layout main.xml in the folder is at your disposal – you can do anything you want with it, and it won’t influence an imported theme. The same is layout incall.xml and dialpad.xml – they exist only for preview.
 
-*10.* In [http://code.google.com/p/big-caller-id-theme-template/wiki/DrawableDescription Resources page] there are described all the images of drawable-hdpi folder.
+*10.* [http://code.google.com/p/big-caller-id-theme-template/wiki/DrawableDescription Resources page] describes all the images of drawable-hdpi folder.
 
-*11.* After everything is done, just export your project like every other in eclipse and PUBLISH IT TO ANDROID MARKET. THEME IS YOUR PROPERYTY, so you can do whatever you want with it!
+*11.* [http://code.google.com/p/big-caller-id-theme-template/wiki/AnimationView Animation View Tutorial] introduces to concept of animated view. Source code now have snowflakes algorithm form Christmas Theme, it should be understable with comments left inside java file.
+
+*12.* After everything is done, just export your project like every other in eclipse and PUBLISH IT TO ANDROID MARKET. THEME IS YOUR PROPERYTY, so you can do whatever you want with it!
 
 = Usage =
 
@@ -65,4 +67,4 @@ You can preview position of buttons in layout incall.xml. It is important that a
 
 *2.* Theme can be *only* selected by full version users.
 
-If you should encounter any problem, mail us to:wroclawstudio@gmail.com – we’ll definitely help you!
+If you should encounter any problem, mail us to: support@wroclawstudio.com – we’ll definitely help you!
