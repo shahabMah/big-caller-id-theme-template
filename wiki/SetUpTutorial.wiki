@@ -9,7 +9,7 @@ We are planing to add other features that will be themable, but that is going to
 
 = Instructions =
 
-*1.* [http://code.google.com/p/big-caller-id-theme-template/downloads/detail?name=StyleTemplate.zip&can=2&q=#makechanges Download] the project, and open it In Eclipse or import it by [http://code.google.com/p/big-caller-id-theme-template/source/checkout SVN], choose SDK 7 – the same as the version of BIG! caller ID.
+*1.* [http://big-caller-id-theme-template.googlecode.com/files/StyleTemplate.rar Download] the project, and open it In Eclipse or import it by [http://code.google.com/p/big-caller-id-theme-template/source/checkout SVN], choose SDK 7 – the same as the version of BIG! caller ID.
 
 *2.* In *Android Manifest* change x.x.x to your own package name.
 Fields:  versionCode and versionName are up to you. You also have to change the x.x.x package name in src/ with Refractor -> Rename.
