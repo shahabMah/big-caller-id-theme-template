@@ -44,6 +44,10 @@ Following fields sets shadow with textview function setShadowLayer [http://devel
 
 *caller_number_shadow_dy*, *caller_number_shadow_dx*, *caller_number_shadow_radius*, *caller_number_shadow_color* 
 
+*caller_field_text_size* – the size of the caller’s name text
+
+*caller_field_number_text_size* – the size of the caller’s number text
+
 *5.* *Positioning:* 
 You can set default position for fields: answer, dialpad, call, decline, end_call, text, speaker, mute and caller_field  by the means of variables (dimen) created in dimen.xml file. Position from a margin with dp value.
 
