@@ -30,6 +30,8 @@ Follow these guidelines:
 
 *caller_filed_font* – the path of the font placed assets/fonts/  . If you use stock Android font, enter “none” (without quotation marks). Path format:  fonts/font_name , where font_name is name of font used. This font is used in the caller’s name field;
 
+*caller_field_number_font* - same as above, but sets font for number field
+
 *caller_field_text_color* – the color of the caller’s name text
 
 *caller_field_number_text_color* – the color of the caller’s number text
