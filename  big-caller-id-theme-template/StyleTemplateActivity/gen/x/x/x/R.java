@@ -11,7 +11,10 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
+        public static final int caller_field_number_text_color=0x7f060001;
         public static final int caller_field_text_color=0x7f060000;
+        public static final int caller_name_shadow_color=0x7f060002;
+        public static final int caller_number_shadow_color=0x7f060003;
     }
     public static final class dimen {
         public static final int answer_bottom=0x7f040001;
@@ -19,6 +22,8 @@ public final class R {
         public static final int call_bottom=0x7f040009;
         public static final int call_left=0x7f040008;
         public static final int caller_field_bottom=0x7f04000e;
+        public static final int caller_field_number_text_size=0x7f040011;
+        public static final int caller_field_text_size=0x7f040012;
         public static final int decline_bottom=0x7f040003;
         public static final int decline_right=0x7f040002;
         public static final int dialpad_bottom=0x7f040005;
@@ -90,7 +95,16 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f050001;
+        public static final int caller_field_aligment=0x7f050006;
         public static final int caller_field_font=0x7f050004;
+        public static final int caller_field_number_aligment=0x7f050007;
+        public static final int caller_field_number_font=0x7f050005;
+        public static final int caller_name_shadow_dx=0x7f050009;
+        public static final int caller_name_shadow_dy=0x7f050008;
+        public static final int caller_name_shadow_radius=0x7f05000a;
+        public static final int caller_number_shadow_dx=0x7f05000b;
+        public static final int caller_number_shadow_dy=0x7f05000c;
+        public static final int caller_number_shadow_radius=0x7f05000d;
         public static final int info=0x7f050000;
         public static final int package_name=0x7f050003;
         public static final int style_name=0x7f050002;
