@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="info">This is a style for\nBIG! caller ID\n\nIt has been loaded \nto your application.\n(if it is installed).\n\nThis theme is compatible with\nBIG! caller ID since version 1.7.5</string>
-    <string name="app_name">Christmas Theme for BIG! caller ID</string>
-    <string name="style_name">ChristmasTheme</string>
-    <string name="package_name">com.wroclawstudio.christmastheme</string>
+
+    <string name="info">This is a theme for\nBIG! caller ID\n\nIt has been loaded \nto your application.\n(if it is installed).\n\nThis theme is compatible with\nBIG! caller ID since version 2.1.6</string>
+    <string name="app_name">X Theme for BIG! caller ID</string>
+    <string name="style_name">X Theme</string>
+    <string name="package_name">x.x.x</string>
     <string name="caller_field_font">fonts/christmas.ttf</string>
+    <string name="caller_field_number_font">fonts/christmas.ttf</string>
+
     <color name="caller_field_text_color">#000000</color>
+    <color name="caller_field_number_text_color">#000000</color>
+
+    <string name="caller_field_aligment">left</string>
+    <string name="caller_field_number_aligment">left</string>
+    <string name="caller_name_shadow_dy">2</string>
+    <string name="caller_name_shadow_dx">2</string>
+    <string name="caller_name_shadow_radius">1.5</string>
+    <string name="caller_number_shadow_dx">2</string>
+    <string name="caller_number_shadow_dy">2</string>
+    <string name="caller_number_shadow_radius">1.5</string>
+
+    <color name="caller_name_shadow_color">#000000</color>
+    <color name="caller_number_shadow_color">#000000</color>
+
 </resources>

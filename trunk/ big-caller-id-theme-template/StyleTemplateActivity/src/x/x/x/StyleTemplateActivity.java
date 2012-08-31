@@ -25,7 +25,7 @@ public class StyleTemplateActivity extends Activity {
 		// This part of code checks if version of BIG! caller ID is equal or above 111, this part is needed casue AnimationView was introduced in this version
 		try {
 			if (getPackageManager().getPackageInfo(
-					"com.wroclawstudio.screencaller", 0).versionCode >= 111)
+					"com.wroclawstudio.screencaller", 0).versionCode >= 140)
 				applicationVersion = true;
 		} catch (NameNotFoundException e) {
 			// TODO Auto-generated catch block
