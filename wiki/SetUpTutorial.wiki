@@ -32,6 +32,18 @@ Follow these guidelines:
 
 *caller_field_text_color* – the color of the caller’s name text
 
+*caller_field_number_text_color* – the color of the caller’s number text
+
+*caller_field_aligment* – caller's name aligment
+
+*caller_field_number_aligment* – caller's number aligment
+
+Following fields sets shadow with textview function setShadowLayer [http://developer.android.com/reference/android/widget/TextView.html#setShadowLayer(float, float, float, int)]
+
+*caller_name_shadow_dy*, *caller_name_shadow_dx*, *caller_name_shadow_radius*, *caller_name_shadow_color* 
+
+*caller_number_shadow_dy*, *caller_number_shadow_dx*, *caller_number_shadow_radius*, *caller_number_shadow_color* 
+
 *5.* *Positioning:* 
 You can set default position for fields: answer, dialpad, call, decline, end_call, text, speaker, mute and caller_field  by the means of variables (dimen) created in dimen.xml file. Position from a margin with dp value.
 
