@@ -6,10 +6,12 @@ This is tutorial for setting up theme for BIG! caller ID. You will be able only 
 
 We are planing to add other features that will be themable, but that is going to be announced.
 
+As for now there are two types of Themes that can be developed *ICS* or *regular* style . Both are avaiable via SVN or download section. Both have three sets of buttons for every phone state (IDLE, OFFHOOK, RINGING). Only difference is how buttons are aranged on screen.
+
 
 = Instructions =
 
-*1.* [http://big-caller-id-theme-template.googlecode.com/files/StyleTemplate.rar Download] the project, and open it In Eclipse or import it by [http://code.google.com/p/big-caller-id-theme-template/source/checkout SVN], choose SDK 7 – the same as the version of BIG! caller ID.
+*1.* Download [http://big-caller-id-theme-template.googlecode.com/files/StyleTemplate.rar regular] or the [http://big-caller-id-theme-template.googlecode.com/files/ICSStyleTemplate.rar ICS] project, and open it In Eclipse or import it by [http://code.google.com/p/big-caller-id-theme-template/source/checkout SVN], choose SDK 7 – the same as the version of BIG! caller ID.
 
 *2.* In *Android Manifest* change x.x.x to your own package name.
 Fields:  versionCode and versionName are up to you. You also have to change the x.x.x package name in src/ with Refractor -> Rename.
