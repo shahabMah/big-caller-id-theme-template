@@ -65,7 +65,7 @@ If no variables (dimen) are created, the field will be positioned analogically t
 
 You can preview position of buttons in layout incall.xml. It is important that after every change of a dimen name you have to apply proper changes in incall.xml file, so that the changes are visible.
 
-*6.* Swap all the icons in drawable-hdpi folder. Every picture has a proper name which they must retain. Files are divided into on/off – clicked and not-clicked state.
+*6.* Swap all the icons in drawable-hdpi folder. Every picture has a proper name which they must retain. Files are divided into on/off – clicked and not-clicked state. * Note that there two different tempaltes  with different drawables names *
 
 *7.* *Do not* change anything in drawable folder.
 
