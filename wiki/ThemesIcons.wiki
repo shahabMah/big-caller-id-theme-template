@@ -8,4 +8,4 @@ When you open the PSD file, double-click on thumbnails of layers with [EDIT] des
 • 96x96, 72x72, 48x48px for app icons in different screen densities,
 • 75x75px for Themes submenu in BIG! caller ID (remove "THEME ribbon" layer here)
 
-Link to template[ https://code.google.com/p/big-caller-id-theme-template/downloads/detail?name=BIG_caller_ID_theme_app_icon_template.psd&can=2&q=]
+Link to [https://code.google.com/p/big-caller-id-theme-template/downloads/detail?name=BIG_caller_ID_theme_app_icon_template.psd&can=2&q= template]
